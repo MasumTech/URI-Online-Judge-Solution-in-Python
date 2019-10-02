@@ -1,9 +1,10 @@
 while True:
-    r1 = input().split(' ')
-    a, b = r1
-    if a==b:
-        break
-    if(a<b):
-        print('Crescente')
-    elif(b<a):
-        print('Decrescente')
+       r1 = input().split(' ')
+       a, b = r1
+       if int(a)==int(b):
+          break
+       else:
+           if(int(a)<int(b)):
+              print('Crescente')
+           elif(int(a)>int(b)):
+              print('Decrescente')
